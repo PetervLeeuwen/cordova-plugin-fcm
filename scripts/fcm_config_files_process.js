@@ -50,7 +50,7 @@ if (directoryExists("platforms/ios")) {
 }
 
 if (directoryExists("platforms/android")) {
-	var path = "../../resources/google-services.json";
+	var path = "resources/google-services.json";
 
     if (fileExists( path )) {
       try {
